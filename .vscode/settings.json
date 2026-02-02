@@ -1,0 +1,9 @@
+{
+    "prettier.bracketSameLine": true,
+    "prettier.enableDebugLogs": true,
+    "editor.formatOnSave": true,
+    "cSpell.words": [
+        "Nuqun",
+        "Waitlist"
+    ]
+}
