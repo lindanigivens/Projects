@@ -1,0 +1,13 @@
+{
+    "manifest_version" : 3,
+    "name": "USM to Google Calendar",
+    "version" : "1.0",
+    "permissions": ["identity", "webRequest", "storage"],
+    "host_permissions": ["https://ubackend.unite180.com/*"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background" : {
+        "scripts" : ["background.js"]
+    }
+}
