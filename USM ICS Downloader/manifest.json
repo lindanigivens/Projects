@@ -1,0 +1,13 @@
+{
+    "manifest_version" : 3,
+    "name": "USM ICS Downloader",
+    "version" : "1.0",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["https://ubackend.unite180.com/*"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background" : {
+        "scripts" : ["background.js"]
+    }
+}
